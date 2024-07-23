@@ -1,0 +1,87 @@
+body {
+	background: #f1f1f1;
+}
+
+.center {
+	margin: 0;
+	width: 80%;
+	padding: 10px;
+	background: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#employees {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#employees td,
+#employees th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#employees tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#employees tr:hover {
+	background-color: #ddd;
+}
+
+#employees th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+}
+.buttons{
+	float: left;
+}
+button {
+ /* Green */
+    border: none;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.update{
+	    background-color: #00BCD4;
+
+}
+.delete{
+	    background-color: red;
+
+}
+.addemployee{
+	margin: 10px;
+}
+.addEmployeeButton{
+	background-color: royalblue;
+	
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.logoutButton{
+    background-color: royalblue;
+
+
+}
+h1{
+	display: inline;
+}
+.logout{
+  float: right;
+}

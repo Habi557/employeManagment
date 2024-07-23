@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<link rel="stylesheet" th:href="@{/css/update.css}">
+</head>
+
+<body>
+	<form>
+	<div class="center">
+		<h1>Employe Directory</h1>
+		<hr />
+		<h2>Save Employe</h2>
+		<input type="text" placeholder="First Name" th:field="${updatedEmployee.firstName}">
+		<input type="text" placeholder="Last Name" th:field="${updatedEmployee.lastName}">
+		<input type="text" placeholder="Email" th:field="${updatedEmployee.email}">
+
+
+		<button>Save</button>
+		<hr />
+		<a th:href="@{/employee/employelist}">Back to EmployeList</a>
+
+	</div>
+	</form>
+
+</body>
+
+</html>
